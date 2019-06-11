@@ -36,7 +36,7 @@ whoami
 if [ ! -f /home/pi/.state  ]; then
 	echo "1" > /home/pi/.state
 	echo ">>>new"
-	./home/pi/.piconf/pizerow-master/firstrun.sh
+	/home/pi/.piconf/pizerow-master/firstrun.sh
 	clean
 	echo ">>>going to reboot"
 	sleep 6
