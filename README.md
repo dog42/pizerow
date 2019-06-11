@@ -23,6 +23,6 @@ add the folowing to `/etc/rc.local` to auto load and run the configfiles on star
 `wget https://github.com/dog42/pizerow/archive/master.zip -O /home/pi/.master.zip`
 `unzip /home/pi/.master.zip -d /home/pi/.piconf`
 `rm /home/pi/.master.zip`
-`./home/pi/.piconf/pi-master/go.sh`
+`./home/pi/.piconf/pizerow-master/go.sh`
 
 
