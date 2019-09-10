@@ -43,5 +43,7 @@ if [ ! -f /home/pi/.state  ]; then
 	reboot
 else
 	echo ">>>old"
+	modprobe ledtrig_heartbeat
+	sudo bash -c "echo heartbeat >/sys/class/leds/led0/trigger"
 fi
 
